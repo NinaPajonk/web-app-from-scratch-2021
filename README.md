@@ -42,11 +42,16 @@ Manipulate data. Reflect on end result
 ## Best Practices
 All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md). --> 
 
-Link to live demo in Github Pages:  - hier komt live link- 
+## Link to live demo in Github Pages:  - hier komt live link- 
 
 <!-- ☝️ replace this description with a description of your own work
  -->
-
+## Contents:
+* Get started
+* Features
+* External data source
+* Checklist
+* License
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
 
 <!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
