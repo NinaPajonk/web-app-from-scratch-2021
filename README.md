@@ -60,7 +60,10 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 
 ## Get started
 
-
+1. Open the terminal on your computer.
+2. Create a directory in a location of your choice with "mkdir" in your console.
+3. Clone repository by typing the following command in your command-line:
+git clone https://github.com/NinaPajonk/web-app-from-scratch-2021
 
 
 ## Concept
@@ -69,8 +72,9 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 <!-- How about a section that describes how to install this project? 🤓 -->
 
 ## Features
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
+* Fetching data from API
+* Filtering data
+* 
 
 ## API's
 
