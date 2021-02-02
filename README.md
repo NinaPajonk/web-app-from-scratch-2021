@@ -45,6 +45,7 @@ All work during this course will be tested against our [Best Practices for JavaS
 # Single page app - Check the weather for kitesurfs spot
 ## Link to live demo in Github Pages:  - hier komt live link- 
 
+Single page app for kitesurfers to check the best spots in the Netherlands from the API: The open weather app.
 <!-- ☝️ replace this description with a description of your own work
  -->
 
@@ -53,25 +54,31 @@ All work during this course will be tested against our [Best Practices for JavaS
 * Get started
 * Concept
 * Features
-* External data source
+* API's
 * Checklist
 * License
 
 ## Get started
 
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+
 
 ## Concept
 
-<!-- Maybe a table of contents here? 📚 -->
 
 <!-- How about a section that describes how to install this project? 🤓 -->
 
+## Features
+
 <!-- ...but how does one use this project? What are its features 🤔 -->
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+## API's
 
+<!-- What external data source is featured in your project and what are its properties 🌠 -->
+## When I have more time...
+Checklist:
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
+
+## License
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
