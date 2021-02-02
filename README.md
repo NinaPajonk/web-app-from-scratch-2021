@@ -1,4 +1,4 @@
-# Web App From Scratch @cmda-minor-web 2020 - 2021
+<!-- # Web App From Scratch @cmda-minor-web 2020 - 2021
 
 In this course you will learn to build a web application without frameworks or unnecessary libraries, but with vanilla HTML, CSS & JavaScript as much as possible. The end result is a modular, single page web app (SPA). Data will be retrieved from an external API of your choice, manipulated and finally shown in the UI of the App. You will learn different ways to structure code and develop your own coding style. With the gained knowledge you will be able to build interactive prototypes, based on real data. Also you will gain a better understanding of how API's, frameworks and libraries work.
 
@@ -40,11 +40,12 @@ Manipulate data. Reflect on end result
 [Slides](https://docs.google.com/presentation/d/1yZi-ODpENKHMr0-kpKmnCI6dGSgXS9oeLxMXCJnieic/edit?usp=sharing)
 
 ## Best Practices
-All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md).
+All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md). --> 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+Link to live demo in Github Pages:  - hier komt live link- 
 
-<!-- ☝️ replace this description with a description of your own work -->
+<!-- ☝️ replace this description with a description of your own work
+ -->
 
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
 
