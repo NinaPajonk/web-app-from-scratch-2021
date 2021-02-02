@@ -43,7 +43,7 @@ Manipulate data. Reflect on end result
 All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md). --> 
 
 # Single page app - Check the weather for kitesurfs spot
-## Link to live demo in Github Pages:  - hier komt live link- 
+## [Link to live demo in Github Pages:](https://ninapajonk.github.io/web-app-from-scratch-2021/)
 
 Single page app for kitesurfers to check the best spots in the Netherlands from the API: The open weather app.
 <!-- ☝️ replace this description with a description of your own work
