@@ -54,7 +54,7 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 * [Get started](#Get-started)
 * [Concept](#Concept)
 * [Features](#Features)
-* [API's](#API's)
+* [API's](#API)
 * [Checklist](#Checklist)
 * [License](#license)
 
@@ -76,7 +76,7 @@ git clone https://github.com/NinaPajonk/web-app-from-scratch-2021
 * Filtering data
 * 
 
-## API's
+## API
 
 <!-- What external data source is featured in your project and what are its properties 🌠 -->
 ## Checklist
