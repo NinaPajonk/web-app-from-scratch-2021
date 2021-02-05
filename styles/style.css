@@ -8,3 +8,31 @@ body  {  font-family: 'Courier New', Courier, monospace;
     color: white;
   
   }
+  .input{
+      text-align: center;
+      margin: 100px 0;
+  }
+  input[type="text"]{
+      height: 50px;
+      width: 600px;
+      background: #e7e7e7;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 2px;
+      padding: 10px 10px;
+  }
+  input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.display{
+    text-align: center;
+}
