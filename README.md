@@ -51,12 +51,12 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 
  <!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
 ## Index:
-* Get started [Get started](#Get-started)
-* Concept
-* Features
-* API's
-* Checklist
-* License
+* [Get started](#Get-started)
+* [Concept](#Concept)
+* [Features](#Features)
+* [API's](#API's)
+* [Checklist](#when-I-have-more-time...)
+* [License](#license)
 
 ## Get started
 
