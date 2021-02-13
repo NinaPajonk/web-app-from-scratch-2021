@@ -79,6 +79,14 @@ git clone https://github.com/NinaPajonk/web-app-from-scratch-2021
 ## API's
 
 <!-- What external data source is featured in your project and what are its properties 🌠 -->
+
+## Actor and Interactive Diagram
+I made an actor and an interactive diagram of my application:
+
+### Actor Diagram
+
+### Interactive Diagram
+
 ## When I have more time...
 Checklist:
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
