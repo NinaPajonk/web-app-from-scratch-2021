@@ -1,3 +1,4 @@
+
 const button = document.querySelector('.button')
 const inputValue = document.querySelector('.inputValue')
 const name = document.querySelector('.name');
@@ -25,4 +26,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
 });
 
 })
+// 
+function router() {
+    routie('hallo', function () {
+        console.log('test')
+    });
+};
 
+router()
