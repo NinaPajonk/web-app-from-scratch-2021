@@ -1,12 +1,12 @@
 
-import {getInfo } from '../scripts/api';
+// import {getInfo } from '../scripts/api';
 
 
-//export
-export function handleRoutes(){
-routie({
-    getInfo().then(data => {
+// //export
+// export function handleRoutes(){
+// routie({
+//     getInfo().then(data => {
 
-    })
-})
-}
+//     })
+// })
+// }
