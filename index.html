@@ -7,20 +7,23 @@
     <title>Check the weather for kitesurfs spot</title>
 </head>
 <body>
+    <!-- homepage-->
     <h1>Check the weather for kitesurfs spot </h1>
-
+<!-- Zoek functie-->
     <div class="input"> 
     <input type="text" class="inputValue" placeholder="Voer een bestemming in"> <!-- text = plek -->
     <input type="submit" value="submit" class="button">
 </div>
-
+<!-- Response van zoek functie-->
 <div class="display">  
     <h1 class="name"></h1>
     <p class="desc"></p>
     <p class="temp"> </p>
     <p class="wind"> </p>
 </div>
-    <script defer src="scripts/api.js"></script>
-    <script src="scripts/modules/routie.js" ></script>
+
+<!-- Moet nog aanpassen naar app.js en library route.js-->
+    <script defer src="scripts/modules/fetch.js"></script>
+    <script src="scripts/library/routie.js" type="module"></script>
 </body>
 </html>
