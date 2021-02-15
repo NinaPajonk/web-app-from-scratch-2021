@@ -1,0 +1,3 @@
+import {handleRoutes} from './';
+
+handleRoutes();
