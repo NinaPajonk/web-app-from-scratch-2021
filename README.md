@@ -37,7 +37,10 @@ git clone https://github.com/NinaPajonk/web-app-from-scratch-2021
 
 ## API
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+Open Weather App : https://openweathermap.org for current weather data. Access current weather data for any location on Earth including over 200,000 cities. 
+Properties I used: Name, Weather description, Temperature, Wind Speed.
+I found a YouTube tutorial in which you build a weather app with JavaScript and the Open Weather API. I used this Youtube tutorial to request the data and render it on my page. I mentioned the [source](#https://www.youtube.com/watch?v=GXrDEA3SIOQ&t=2s) of the tutorial in my code.
+
 
 
 ## Actor and Interactive Diagram
