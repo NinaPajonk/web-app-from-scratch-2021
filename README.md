@@ -31,15 +31,15 @@ git clone https://github.com/NinaPajonk/web-app-from-scratch-2021
 <!-- How about a section that describes how to install this project? 🤓 -->
 
 ## Features
-* Fetching data from API
-* Filtering data
-* 
+* Fetching data from API (Open Weather App)
+* Search option
+* Top 5 kitesurf spots with up to date weather data
 
 ## API
 
 Open Weather App : https://openweathermap.org for current weather data. Access current weather data for any location on Earth including over 200,000 cities. 
 Properties I used: Name, Weather description, Temperature, Wind Speed.
-I found a YouTube tutorial in which you build a weather app with JavaScript and the Open Weather API. I used this Youtube tutorial to request the data and render it on my page. I mentioned the [source](#https://www.youtube.com/watch?v=GXrDEA3SIOQ&t=2s) of the tutorial in my code.
+I found a YouTube tutorial in which you build a weather app with JavaScript and the Open Weather API. I used this Youtube tutorial to request the data and render it on my page. I mentioned the [Source](https://www.youtube.com/watch?v=GXrDEA3SIOQ&t=2s) of the tutorial in my code.
 
 
 
