@@ -13,4 +13,9 @@ import {
                         // detail page
 } from './modules/render.js'
 
+import {
+    locations
+}
+from './modules/locations.js'
+
 
