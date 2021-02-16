@@ -58,13 +58,13 @@ I made an actor and an interactive diagram of my application:
 ## Research
 ### Single Page Application (SPA)
 
-- Wat is een SPA?
+Wat is een SPA?
 Een SPA is letterlijk een app die bestaat uit maar 1 pagina. De pagina hoeft dus niet te herladen tijdens het gebruik. 
 
-- Doel: Een vlotte gebruikerservaring bieden
+Doel: Een vlotte gebruikerservaring bieden
 In een SPA wordt alle benodigde HTML, JavaScript en CSS code opgeladen met één enkele laadactie van de pagina. De pagina wordt op geen enkele manier in het proces opnieuw geladen. Interactie met een SPA gaat vaak gepaard met dynamische communicatie met de webserver. 
 
-- Nadelen SPA:
+Nadelen SPA:
 Werkt niet zonder Javascript.
 Niet vriendelijk voor zoekmachines (SEO), omdat je als het ware maar 1 html pagina inlaadt. Door de hash urls kunnen zoekmachines dit niet lezen.
 
@@ -77,7 +77,7 @@ Niet vriendelijk voor zoekmachines (SEO), omdat je als het ware maar 1 html pagi
 * Gmail
 * Google Drive 
 
-- Wanneer gebruik je geen SPA?
+Wanneer gebruik je geen SPA?
 Een SPA is niet altijd handig om te gebruiken voor als je een page hebt meerdere categorieën of veel content. Bijvoorbeeld een online winkel. 
 
 
