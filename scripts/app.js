@@ -12,3 +12,10 @@ import {
     renderOverviewTop5 // homepage 
                         // detail page
 } from './modules/render.js'
+
+import {
+    locations
+}
+from './modules/locations.js'
+
+
