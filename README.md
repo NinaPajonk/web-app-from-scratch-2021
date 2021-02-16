@@ -83,4 +83,16 @@ Niet vriendelijk voor zoekmachines (SEO), omdat je als het ware maar 1 html pagi
 Wanneer gebruik je geen SPA?
 Een SPA is niet altijd handig om te gebruiken voor als je een page hebt meerdere categorieën of veel content. Bijvoorbeeld een online winkel. 
 
+### JavaScript Fundamentals - Joost 
+Defer
+Scope
+Block Scope
+Functie Scope
+Global Scope
+"use strict"
+Hoisting
+
+### Modules
+
+### Routie
 
