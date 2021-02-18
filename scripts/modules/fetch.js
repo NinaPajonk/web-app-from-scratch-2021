@@ -1,4 +1,7 @@
+import { locations } from './locations.js'
 
+
+// overview page zoek functie 
 const button = document.querySelector('.button')
 const inputValue = document.querySelector('.inputValue')
 const name = document.querySelector('.name');
@@ -6,12 +9,12 @@ const desc = document.querySelector('.desc');
 const wind = document.querySelector('.wind');
 const temp = document.querySelector('.temp');
 
-// overview page zoek functie
+
 button.addEventListener('click',function(){
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=44b15a8581ffb6c0cc21a142f2c8c380') // metric voor graden celsius nog toevoegen
 .then(response => response.json())
 .then(data =>  {
-    console.log(data)
+    console.log(data.name)
     const nameValue = data['name'];
     const tempValue = data['main']['temp'];
     const windValue = data['wind']['speed'];
@@ -28,19 +31,32 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
 
 })
 
-// overviewpage plekken met lat en lon  top 5 kite surf spots
-// const api ={
-//     key: "44b15a8581ffb6c0cc21a142f2c8c380",
-//     baseurl:"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}"
-// }
+// overviewpage plekken top 5 kite surf spots (moet nog api filteren)
 
+function renderOverviewPage() {
+    locations.map(location => {
+        const list = document.querySelector(".list")
+        console.log(location.image);
+        list.insertAdjacentHTML('beforeend', `
+        <article> 
+       
+        <h2>${location.name} </h2>
+        <img src="${location.image}">
+         </article>  `)
+    })
+}
+
+renderOverviewPage();
 
 
 // router (moet niet in de fetch module, nog verplaatsen)
 function router() {
-    routie('#hallo', function () {
+    routie('hallo', function () {
         console.log('test')
     });
+    // routie('hallo', function () {
+    //     console.log('test')
+    // });
 };
 
 router()

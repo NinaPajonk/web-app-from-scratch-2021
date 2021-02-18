@@ -1,21 +1,20 @@
-// Importing the functions from all modules
-import {
+// Importing modules
+// import {
 
 
-}from './modules/router.js'
+// }from './modules/router.js'
 
-import {
-  //api data 
-} from './modules/fetch.js'
+// import {
 
-import {
-    renderOverviewTop5 // homepage 
-                        // detail page
-} from './modules/render.js'
+// } from './modules/fetch.js'
 
-import {
-    locations
-}
-from './modules/locations.js'
+// import {
+
+// } from './modules/render.js'
+
+// import {
+//     locations
+// }
+// from './modules/locations.js'
 
 
