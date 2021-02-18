@@ -1,6 +1,6 @@
 
 # Single page app - Check the weather for kitesurfs spot
-## [Link to live demo in Github Pages:](https://ninapajonk.github.io/web-app-from-scratch-2021/)
+## [Link to live demo in Github Pages:](https://kitesurf.netlify.app)
 
 Single page app for kitesurfers to check the best spots in the Netherlands from the API: The open weather app.
 <!-- ☝️ replace this description with a description of your own work
