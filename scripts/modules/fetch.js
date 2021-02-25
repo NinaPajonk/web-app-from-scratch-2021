@@ -39,9 +39,8 @@ function renderOverviewPage() {
         console.log(location.image);
         list.insertAdjacentHTML('beforeend', `
         <article> 
-       
         <h2>${location.name} </h2>
-        <img src="${location.image}">
+        <img src="${location.image}"> 
          </article>  `)
     })
 }
