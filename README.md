@@ -12,7 +12,7 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 * [Concept](#Concept)
 * [Features](#Features)
 * [API's](#API)
-* [Data Fetchen](#How-I-fetched-my-data-from-the-open-weather-API:)
+* [Data Fetchen](#Data-fetchen)
 * [Checklist](#Checklist)
 * [License](#license)
 * [Research](#Research)
@@ -51,7 +51,8 @@ I made an actor and an interactive diagram of my application:
 
 ### Interactive Diagram
 
-## How I fetched my data from the open weather API:
+## Data fetchen
+How I fetched my data from the open weather API:
 
 ## Checklist
 
