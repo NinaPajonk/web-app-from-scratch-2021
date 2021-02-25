@@ -57,7 +57,7 @@ How I fetched my data from the open weather API:
 I used it with an addEventListener because in my application you need to fill first in the searchbar the location and hit the sumbit button. After the data is fetched it retsponse json file and rendered to my HTML.
 ```
 button.addEventListener('click',function(){
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=44b15a8581ffb6c0cc21a142f2c8c380') // metric voor graden celsius nog toevoegen
+fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=API-key') 
 .then(response => response.json())
 .then(data =>  {
     console.log(data.name)
@@ -80,11 +80,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
 
 ## When I had more time
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
+- Icons that changed with the weather conditions. (sun, rain etc)
+- Personal list of your favorites
 ## License
 
-## Research
+## Research (in Dutch)
 ### Single Page Application (SPA)
 
 Wat is een SPA?
@@ -144,7 +144,7 @@ Ik heb mijn code gesplitst in de volgende modules:
 - render.js
 - router.js
 
-Zie ook mijn [actior diagram] (#Actor-Diagram)
+Zie ook mijn [Actor diagram] (#Actor-Diagram)
 
 Good to know:
 - Modules are scoped
@@ -152,5 +152,5 @@ Good to know:
 - Main script needs a [type=module] attribute to work
 - Modules are deferred bij default
 
-### Routie
+
 
