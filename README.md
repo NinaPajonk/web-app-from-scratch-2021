@@ -13,7 +13,7 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 * [Features](#Features)
 * [API's](#API)
 * [Data Fetchen](#Data-fetchen)
-* [When i had more time](#When-I-had-more-time)
+* [When I had more time](#When-I-had-more-time)
 * [License](#license)
 * [Research](#Research)
 
@@ -78,7 +78,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
 })
 ```
 
-## When I had more timee
+## When I had more time
 
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
@@ -97,7 +97,7 @@ Nadelen SPA:
 Werkt niet zonder Javascript.
 Niet vriendelijk voor zoekmachines (SEO), omdat je als het ware maar 1 html pagina inlaadt. Door de hash urls kunnen zoekmachines dit niet lezen.
 
-- Voorbeelden van SPA's zijn: 
+Voorbeelden van SPA's zijn: 
 * Netflix
 * Google Maps
 * Twitter  
@@ -117,6 +117,7 @@ is omgeving waar bindings (var, let, const) leven, waar ze bestaan.
 Bindings leven in functie = functie scope, variabele die je binnen eenn functie declareert bestaan binnen die functie scope.
 
 Const, let (Es6) zijn er later bij gekomen. 
+
 - Block Scope
 Alles wat je tussen de accolades {} zet. Maak je er een var van dan pakt hij het wel.
 
@@ -136,6 +137,15 @@ Omhoog tillen, bepaalde onderdelen naar boven brengen.
 ### Modules
 Modules zijn opgesplitste Javascript files. Wanneer je Javascript bestand erg groot wordt, is dit fijn om in kleinere stukjes op te splitsen. Elke file (module) heeft dan zijn eigen taak. Je hebt 1 "main" Javascript bestand en daar exporteer je elke module naar toe als het ware. Hiervoor moet je wel in je HTML aangeven dat je main Javascript werkt met modules. Mijn main Javascript is app.js
 ``` <script type="module" src="script/app.js"></script> ```
+
+Ik heb mijn code gesplitst in de volgende modules:
+- fetch.js
+- locations.js
+- render.js
+- router.js
+
+Zie ook mijn [actior diagram] (#Actor-Diagram)
+
 Good to know:
 - Modules are scoped
 - Modules only work on webserver/localhost
