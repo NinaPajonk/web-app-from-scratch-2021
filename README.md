@@ -13,7 +13,7 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 * [Features](#Features)
 * [API's](#API)
 * [Data Fetchen](#Data-fetchen)
-* [Checklist](#Checklist)
+* [When i had more time](#When-I-had-more-time)
 * [License](#license)
 * [Research](#Research)
 
@@ -54,7 +54,31 @@ I made an actor and an interactive diagram of my application:
 ## Data fetchen
 How I fetched my data from the open weather API:
 
-## Checklist
+I used it with an addEventListener because in my application you need to fill first in the searchbar the location and hit the sumbit button. After the data is fetched it retsponse json file and rendered to my HTML.
+```
+button.addEventListener('click',function(){
+fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=44b15a8581ffb6c0cc21a142f2c8c380') // metric voor graden celsius nog toevoegen
+.then(response => response.json())
+.then(data =>  {
+    console.log(data.name)
+    const nameValue = data['name'];
+    const tempValue = data['main']['temp'];
+    const windValue = data['wind']['speed'];
+    const descValue = data['weather']['0']['description'];
+    name.innerHTML = nameValue;
+    temp.innerHTML = tempValue;
+    wind.innerHTML = windValue;
+    desc.innerHTML = descValue;
+})
+
+.catch(error => {
+    console.log(error);
+});
+
+})
+```
+
+## When I had more timee
 
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
@@ -86,15 +110,37 @@ Wanneer gebruik je geen SPA?
 Een SPA is niet altijd handig om te gebruiken voor als je een page hebt meerdere categorieën of veel content. Bijvoorbeeld een online winkel. 
 
 ### JavaScript Fundamentals - Joost 
-Defer
-Scope
-Block Scope
-Functie Scope
-Global Scope
-"use strict"
-Hoisting
+- Defer
+Een defer attribute geeft aan laden na je html. Als je dit: <script src="script.js" defer> </script> in de head zou zetten inplaatsvan onderaan je html pagina laat hij het alsnog in de goede volgorde. Modules doen defer bij default.
+- Scope
+is omgeving waar bindings (var, let, const) leven, waar ze bestaan. 
+Bindings leven in functie = functie scope, variabele die je binnen eenn functie declareert bestaan binnen die functie scope.
+
+Const, let (Es6) zijn er later bij gekomen. 
+- Block Scope
+Alles wat je tussen de accolades {} zet. Maak je er een var van dan pakt hij het wel.
+
+- Functie Scope
+fucntion getHeadig(){
+var heading = document.querySelector('h1');
+}
+Je zet de variabel dus in de functie zelf.
+- Global Scope
+a = 'a' 
+Bad practice, deze variabele kan je in het hele script gebruiken. Zondeer binding. Als je in de browser 'window' typt, dan krijg je de globale Javascript scope terug.
+- "use strict"
+Strict mode, sommige manieren niet meer zijn toegestaan zoals geen globale varaibele mag aanmaken. Modules draaien standaard in strict mode dus kan geen globale variabele kan definieren.
+- Hoisting
+Omhoog tillen, bepaalde onderdelen naar boven brengen. 
 
 ### Modules
+Modules zijn opgesplitste Javascript files. Wanneer je Javascript bestand erg groot wordt, is dit fijn om in kleinere stukjes op te splitsen. Elke file (module) heeft dan zijn eigen taak. Je hebt 1 "main" Javascript bestand en daar exporteer je elke module naar toe als het ware. Hiervoor moet je wel in je HTML aangeven dat je main Javascript werkt met modules. Mijn main Javascript is app.js
+``` <script type="module" src="script/app.js"></script> ```
+Good to know:
+- Modules are scoped
+- Modules only work on webserver/localhost
+- Main script needs a [type=module] attribute to work
+- Modules are deferred bij default
 
 ### Routie
 
