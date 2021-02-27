@@ -48,7 +48,8 @@ I found a YouTube tutorial in which you build a weather app with JavaScript and 
 I made an actor and an interactive diagram of my application:
 
 ### Actor Diagram
-<img src="/Users/ninapajonk/Desktop/WAFS/web-app-from-scratch-2021/images/actordiagram_v1.png"> 
+<img src="/web-app-from-scratch-2021/images/actordiagram_v1.png"> 
+Nog niet compleet
 ### Interactive Diagram
 
 ## Data fetchen
