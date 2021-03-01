@@ -1,7 +1,6 @@
-import { locations } from './locations.js'
-
-
+import { locations } from "./locations";
 // overview page zoek functie 
+
 
 const button = document.querySelector('.button')
 const inputValue = document.querySelector('.inputValue')
@@ -37,48 +36,14 @@ fetch(urlApi+inputValue.value+'&appid=44b15a8581ffb6c0cc21a142f2c8c380')
 
 
 
-// overviewpage plekken top 5 kite surf spots (moet nog api filteren)
-
-export function overviewPage() {
-    locations.map(location => {
-        const list = document.querySelector(".list")
-        console.log(location.image);
-        list.insertAdjacentHTML('beforeend', `
-        <article> 
-        <a href="#spot1${location.id}">
-        <h2>${location.name} </h2>
-        <img src="${location.image}"> 
-         </article>  `)
-    })
-}
-
-overviewPage();
 
 
-//DETAIL PAGE
+// fetch data lat en long (coordinaten) api.openweathermap.org/data/2.5/weather?lat=location.lat&lon=location.lon&appid=44b15a8581ffb6c0cc21a142f2c8c380
 
-
-
-  
-
-
-// router (moet niet in de fetch module, nog verplaatsen)
-export function router() {
-    routie('spot1', function () {
-        console.log('test1')
-    });
-    routie('spot2', function () {
-        console.log('test')
-    });
-    routie('spot3', function () {
-        console.log('test')
-    });
-    routie('spot4', function () {
-        console.log('test4')
-    });
-    routie('spot5', function () {
-        console.log('test5')
-    });
-};
-
-router()
+// export function getDataTop5(lat,lon) {
+//     fetch(urlApi+lat=locations.lat&lon=locations.long+'&appid=44b15a8581ffb6c0cc21a142f2c8c380') 
+//     .then(response => response.json())
+//     .then(data =>  {
+//         console.log(data)
+//     })
+// }

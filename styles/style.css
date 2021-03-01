@@ -1,7 +1,6 @@
 * { margin:0;
     padding:0;
     box-sizing: border-box;
-
 }
 
 
@@ -21,7 +20,7 @@ h1{
 }
 
 /* search balk */
-  .input{
+  .search{
       text-align: center;
       margin: 20px;
 
@@ -97,10 +96,45 @@ article img {
     height: 180px;
     padding: 10px;
     border-radius: 20px;
-
-   
 }
 
 article h2{
     padding-top: 15px;
+}
+
+/* unvisited link */
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: orangered;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }
+/* Detail sections spots5*/
+  section {
+    opacity: 0;
+    transition: 0.25s;
+    width: 100%;
+}
+
+section.active {
+    opacity: 1;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    z-index: 99;
 }
