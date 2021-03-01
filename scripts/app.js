@@ -1,20 +1,11 @@
 // Importing modules
-// import {
+import { locations } from './modules/locations.js'
+import { router } from './modules/router.js'
+import { overviewPage } from './modules/render.js'
+import {} from './modules/fetch.js'
 
 
-// }from './modules/router.js'
-
-// import {
-
-// } from './modules/fetch.js'
-
-// import {
-
-// } from './modules/render.js'
-
-// import {
-//     locations
-// }
-// from './modules/locations.js'
-
-
+locations();
+router();
+overviewPage();
+routie();
