@@ -14,7 +14,6 @@ Single page app for kitesurfers to check the best spots in the Netherlands from 
 * [API's](#API)
 * [Data Fetchen](#Data-fetchen)
 * [When I had more time](#When-I-had-more-time)
-* [License](#license)
 * [Research](#Research)
 
 
@@ -28,8 +27,7 @@ git clone https://github.com/NinaPajonk/web-app-from-scratch-2021
 
 ## Concept
 
-
-<!-- How about a section that describes how to install this project? 🤓 -->
+My application is for kite surfers who would like to see the current weather conditions at the best kite surf spots. There is a search function for spots that are not in the top 5. They can check the temperature and the wind speed. 
 
 ## Features
 * Fetching data from API (Open Weather App)
@@ -56,8 +54,10 @@ How I fetched my data from the open weather API:
 
 I used it with an addEventListener because in my application you need to fill first in the searchbar the location and hit the sumbit button. After the data is fetched it retsponse json file and rendered to my HTML.
 ```
-button.addEventListener('click',function(){
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=API-key') 
+const urlApi = "https://api.openweathermap.org/data/2.5/weather?q=";
+
+button.addEventListener('click', function(){
+fetch(urlApi+inputValue.value+'&appid=44b15a8581ffb6c0cc21a142f2c8c380') 
 .then(response => response.json())
 .then(data =>  {
     console.log(data.name)
@@ -82,7 +82,8 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&ap
 
 - Icons that changed with the weather conditions. (sun, rain etc)
 - Personal list of your favorites
-## License
+- 
+
 
 ## Research (in Dutch)
 ### Single Page Application (SPA)
